@@ -59,8 +59,7 @@ public class Home extends AppCompatActivity {
 
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                System.out.println("ffffffffffffffffffffffffffffffffff");
-               Toast.makeText(Home.this,item.getItemId() ,Toast.LENGTH_SHORT).show();
+                
                 switch (item.getItemId()){
                     case R.id.nav_home:
                         Intent intent = new Intent(Home.this,IndexActivity.class);
